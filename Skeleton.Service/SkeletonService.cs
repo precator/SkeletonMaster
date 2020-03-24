@@ -16,7 +16,7 @@ namespace Skeleton.Service
         public double GetManufacturingProfit()
         {
 
-            //formula for labor([productionperhour] *[playerprodmodifier]) / ([player admin] * [wages])   tyrr
+            
             var adminPercentage = _repository.GetAdminPercentage();
             var getProducts = _repository.GetProductsManufacturingList();
             
