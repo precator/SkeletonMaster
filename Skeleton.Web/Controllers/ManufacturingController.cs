@@ -9,8 +9,8 @@ namespace SimCompanies.Controllers
 {
     public class ManufacturingController : Controller
     {
-        private readonly ManufacturingService _manufacturingService; //This is our service layer where we put all the business logic to make a skinny controller 
-        public ManufacturingController(ManufacturingService getManufacturingInfo)
+        private readonly SkeletonService _manufacturingService; //This is our service layer where we put all the business logic to make a skinny controller 
+        public ManufacturingController(SkeletonService getManufacturingInfo)
         {
             _manufacturingService = getManufacturingInfo;
         }

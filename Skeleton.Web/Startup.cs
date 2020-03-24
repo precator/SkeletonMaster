@@ -31,7 +31,7 @@ namespace SimCompanies
         {
             services.AddDbContext<Skeleton.Repository.SkeletonContext>(options => options.UseSqlServer(Configuration.GetConnectionString("SimCompanies")));
 
-            services.AddScoped<ManufacturingService>();
+            services.AddScoped<SkeletonService>();
             services.AddTransient<SkeletonRepository>();
             services.AddTransient<Skeleton.Repository.SkeletonContext>();
             services.AddControllersWithViews();

@@ -5,11 +5,11 @@ using Skeleton.Repository;
 
 namespace Skeleton.Service
 {
-    public class ManufacturingService
+    public class SkeletonService
     {
         private SkeletonRepository _repository ;
 
-        public ManufacturingService(SkeletonRepository repository)
+        public SkeletonService(SkeletonRepository repository)
         {
             _repository = repository;
         }
